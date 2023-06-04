@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulación del DOM </title>
+    <title> Manipulación del DOM básico </title>
 </head>
 <body>
-    <h1> Manipulación del DOM básica </h1>
+    <h1>Curso práctico de JavaScript básico</h1>
+    <input id="calculo1" placeholder="Escribe un valor aquí">
+    <input onchange="console.log('cambiaron el input')" id="calculo2" placeholder="Escribe un segundo valor ">
+    <button id="btnCalcular" onclick="console.log('presionaron el botón' + btnOnClick())"> calcular</button>
+    <p id="resultado"></p>
 
-    <input id="calculo1" placeholder="Escriba algo aquí">
-    <input id="calculo2 " placeholder="Escriba algo aquí">
-    <button id="btnCalcular" > Calcular</button>
-    <script src="./script.js "></script>
+    <script src="./script.js"></script>
 </body>
 </html>
