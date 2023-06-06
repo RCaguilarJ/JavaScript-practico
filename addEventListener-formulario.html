@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>addEventListener en formulario</title>
+  </head>
+  <body>
+    <form id="form">
+      <h1>Curso práctico de JavaScript básico</h1>
+      <input id="calculo1" placeholder="Escribe un valor aquí" />
+      <input
+        onchange="console.log('cambiaron el input')"
+        id="calculo2"
+        placeholder="Escribe un segundo valor "
+      />
+      <button id="btnCalcular">calcular</button>
+      <p id="resultado"></p>
+
+      <script src="./addEventListener-formulario.js"></script>
+    </form>
+  </body>
+</html>
